@@ -1,8 +1,8 @@
 <?php
 
-   echo $_SERVER['PATH'];
-    echo \n;
-    echo $_ENV['ALL'];
+    $serverRoot = $_SERVER['DOCUMENT_ROOT'];
+    echo $serverRoot;
+   include $serverRoot . '/includes/headder.php';
 
 
 //include('')
